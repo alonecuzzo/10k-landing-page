@@ -9,6 +9,7 @@ body {
 	background: #F7F7F7;
 	height: 100%;
 	overflow: hidden;
+	background-image: url('/img/background-stopwatch.png');
 
 	#sidebar {
 		position: absolute;
@@ -20,6 +21,18 @@ body {
 		-moz-box-shadow: 3px 0px 5px #CCC;
 		-webkit-box-shadow: 3px 0px 5px #CCC;
 		box-shadow: 3px 0px 5px #CCC;
+
+		#email-capture {
+			margin-top: 30px;
+
+			input {
+				width: 200px;
+			}
+
+			button {
+				color: #666;
+			}
+		}
 
 		#tagline {
 			color: #255885;
