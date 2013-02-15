@@ -21,35 +21,42 @@ body {
 		-webkit-box-shadow: 3px 0px 5px #CCC;
 		box-shadow: 3px 0px 5px #CCC;
 
-			#sidebar-logo {
-				background-image: url('/img/sidebar-logo.png');
-				background-repeat: no-repeat;
-				width: 208px;
-				height: 123px;
-				margin-top: 50px;
-				margin-left: 98px;
-				position: relative;
-			}
+		#tagline {
+			color: #255885;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-size: 13px;
+		}
 
-			nav {
-				border-top: 1px solid #FFFFFF;
-				bottom: 0;
-				position: absolute;
-				z-index: 2000;
-				width: 380px;
-				background: #FFFFFF;
-				padding: 20px;
-			}
+		#sidebar-logo {
+			background-image: url('/img/sidebar-logo.png');
+			background-repeat: no-repeat;
+			width: 208px;
+			height: 123px;
+			margin-top: 50px;
+			margin-left: 98px;
+			position: relative;
+		}
 
-			.nav-content a{
-				color: $site-grey;
-				text-transform: uppercase;
-				font-size: 12px;
-				margin-left: 14px;
-				margin-right: 14px;
-				text-decoration: none;
-				letter-spacing: 2px;
-			}
+		nav {
+			border-top: 1px solid #FFFFFF;
+			bottom: 0;
+			position: absolute;
+			z-index: 2000;
+			width: 380px;
+			background: #FFFFFF;
+			padding: 20px;
+		}
+
+		.nav-content a{
+			color: $site-grey;
+			text-transform: uppercase;
+			font-size: 12px;
+			margin-left: 14px;
+			margin-right: 14px;
+			text-decoration: none;
+			letter-spacing: 2px;
+		}
 	}
 
 	#iphone {
