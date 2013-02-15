@@ -1,16 +1,16 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-splashpage\/scss\/style\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-splashpage\/scss\/style\.scss}line{font-family:\000033}}
 body {
   overflow-y: hidden;
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-splashpage\/scss\/style\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-splashpage\/scss\/style\.scss}line{font-family:\000038}}
 #main {
   background: #F7F7F7;
   height: 100%;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-splashpage\/scss\/style\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-splashpage\/scss\/style\.scss}line{font-family:\0000313}}
 #main #sidebar {
   position: absolute;
   width: 420px;
@@ -22,7 +22,7 @@ body {
   -webkit-box-shadow: 3px 0px 5px #cccccc;
   box-shadow: 3px 0px 5px #cccccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-splashpage\/scss\/style\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-splashpage\/scss\/style\.scss}line{font-family:\0000324}}
 #main #sidebar #sidebar-logo {
   background-image: url("/img/sidebar-logo.png");
   background-repeat: no-repeat;
@@ -32,7 +32,27 @@ body {
   margin-left: 98px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-splashpage\/scss\/style\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-splashpage\/scss\/style\.scss}line{font-family:\0000334}}
+#main #sidebar nav {
+  border-top: 1px solid white;
+  bottom: 0;
+  position: absolute;
+  z-index: 2000;
+  width: 380px;
+  background: #FFFFFF;
+  padding: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-splashpage\/scss\/style\.scss}line{font-family:\0000344}}
+#main #sidebar .nav-content a {
+  color: #999999;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-left: 14px;
+  margin-right: 14px;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-splashpage\/scss\/style\.scss}line{font-family:\0000355}}
 #main #iphone {
   background-image: url("/img/iphone.png");
   background-repeat: no-repeat;
