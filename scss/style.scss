@@ -59,6 +59,10 @@ body {
 			border-bottom: 1px solid #4a91b9;
 		}
 
+		#coming-soon-button {
+			margin-top: 20px;
+		}
+
 		#tagline {
 			color: $site-dark-blue;
 			text-transform: uppercase;
@@ -72,7 +76,7 @@ body {
 			background-repeat: no-repeat;
 			width: 208px;
 			height: 123px;
-			margin-top: 50px;
+			margin-top: 20px;
 			margin-left: 98px;
 			position: relative;
 		}
