@@ -9,6 +9,10 @@ module.exports = function(grunt){
       compileMain: {
         files: [ 'coffee/main.coffee' ],
         dest: 'js/main.js'
+      },
+      compileApp: {
+        files: [ 'coffee/app.coffee' ],
+        dest: 'app.js'
       }
     },
     compass : {
@@ -25,6 +29,10 @@ module.exports = function(grunt){
       main: {
         files: 'coffee/main.coffee',
         tasks: 'coffee:compileMain ok'
+      },
+      app: {
+        files: 'coffee/app.coffee',
+        tasks: 'coffee:compileApp ok'
       },
       compass : {
 			files : ['scss/*.scss'],
