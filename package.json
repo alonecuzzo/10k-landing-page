@@ -9,6 +9,8 @@
     "express": "3.1.0",
     "jade": "*",
     "grunt-compass" : "0.3.7",
-    "grunt-css" : "0.3.2"
+    "grunt-css" : "0.3.2",
+    "ejs" : "0.8.3",
+    "stache" : "0.1.0"
   }
 }

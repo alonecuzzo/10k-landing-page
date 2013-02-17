@@ -8,7 +8,7 @@ module.exports = function(grunt){
     coffee: {
       compileMain: {
         files: [ 'coffee/main.coffee' ],
-        dest: 'js/main.js'
+        dest: 'public/js/main.js'
       },
       compileApp: {
         files: [ 'coffee/app.coffee' ],
@@ -18,7 +18,7 @@ module.exports = function(grunt){
     compass : {
 		dev: {
 			src : './scss',
-			dest : './css',
+			dest : './public/css',
 			linecomments : true,
 			forcecompile : true,
 			debugsass : true
