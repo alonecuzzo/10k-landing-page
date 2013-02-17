@@ -30,3 +30,5 @@ server = http.createServer(app).listen(app.get('port'), ->
 	console.log 'express listening on port ' + app.get('port')
 	return
 	)
+
+# app.listen(3000)
