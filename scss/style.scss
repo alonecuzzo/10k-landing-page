@@ -138,6 +138,44 @@ body {
 				border: 1px solid $site-grey;
 			}
 
+			.text {
+				float: right;
+				position: relative;
+				margin-left: 100px;
+				padding-right: 30px;
+				margin-top: -50px;
+				color: #777;
+			}
+
+
+			.icon{
+				width: 25px;
+				height: 25px;
+				margin-left: 35px;
+				margin-top: 25px;			
+				background-repeat: no-repeat;
+			}
+
+			#callout0 .icon{
+				background-image: url('/img/list-icon.png');
+			}
+
+			#callout1 .icon{
+				background-image: url('/img/stopwatch-icon.png');
+				width: 35px;
+				height: 35px;
+			}
+
+			#callout2 .icon{
+				background-image: url('/img/clock-icon.png');
+				width: 30px;
+				height: 30px;
+			}
+
+			#callout3 .icon{
+				background-image: url('/img/calendar-icon.png');
+			}
+
 			#callout1, #callout2, #callout3 {
 				opacity: .5;
 			}

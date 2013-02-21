@@ -140,6 +140,43 @@ body {
   border: 1px solid #999999;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003141}}
+#main #slides .viewport .text {
+  float: right;
+  position: relative;
+  margin-left: 100px;
+  padding-right: 30px;
+  margin-top: -50px;
+  color: #777;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003151}}
+#main #slides .viewport .icon {
+  width: 25px;
+  height: 25px;
+  margin-left: 35px;
+  margin-top: 25px;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003159}}
+#main #slides .viewport #callout0 .icon {
+  background-image: url("/img/list-icon.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003163}}
+#main #slides .viewport #callout1 .icon {
+  background-image: url("/img/stopwatch-icon.png");
+  width: 35px;
+  height: 35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003169}}
+#main #slides .viewport #callout2 .icon {
+  background-image: url("/img/clock-icon.png");
+  width: 30px;
+  height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003175}}
+#main #slides .viewport #callout3 .icon {
+  background-image: url("/img/calendar-icon.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003179}}
 #main #slides .viewport #callout1, #main #slides .viewport #callout2, #main #slides .viewport #callout3 {
   opacity: .5;
 }
