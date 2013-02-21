@@ -115,3 +115,31 @@ body {
   margin-left: 14px;
   margin-top: 111px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003119}}
+#main #slides {
+  position: absolute;
+  float: right;
+  width: 340px;
+  height: 750px;
+  margin-top: -500px;
+  margin-left: 900px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003127}}
+#main #slides .viewport {
+  list-style-type: none;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003131}}
+#main #slides .viewport li {
+  width: 306px;
+  height: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #F7F7F7;
+  margin-top: 35px;
+  border: 1px solid #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003141}}
+#main #slides .viewport #callout1, #main #slides .viewport #callout2, #main #slides .viewport #callout3 {
+  opacity: .5;
+}

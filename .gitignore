@@ -6,3 +6,5 @@
 *.sublime-workspace
 node_modules/
 tmp/
+config.rb
+scss/style.css

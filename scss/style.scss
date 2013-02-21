@@ -115,4 +115,32 @@ body {
 			margin-top: 111px;
 		}
 	}
+
+	#slides {
+		position: absolute;
+		float: right;
+		width: 340px;
+		height: 750px;
+		margin-top: -500px;
+		margin-left: 900px;
+
+		.viewport {
+			list-style-type: none;
+			position: absolute;
+
+			li {
+				width: 306px;
+				height: 80px;
+				padding-top: 30px;
+				padding-bottom: 30px;
+				background: #F7F7F7;
+				margin-top: 35px;
+				border: 1px solid $site-grey;
+			}
+
+			#callout1, #callout2, #callout3 {
+				opacity: .5;
+			}
+		}
+	}
 }
