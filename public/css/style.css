@@ -1,6 +1,6 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\000034}}
-body {
-  overflow-y: hidden;
+body, html {
+  overflow: hidden;
   height: 100%;
 }
 
@@ -135,7 +135,7 @@ body {
   height: 80px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background: #F7F7F7;
+  background-image: url("/img/sidebar-bkgrnd.jpg");
   margin-top: 35px;
   border: 1px solid #999999;
 }
@@ -146,7 +146,7 @@ body {
   margin-left: 100px;
   padding-right: 30px;
   margin-top: -50px;
-  color: #777;
+  color: #f7f7f7;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003151}}
 #main #slides .viewport .icon {

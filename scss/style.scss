@@ -1,8 +1,8 @@
 $site-grey: #999999;
 $site-dark-blue: #255885;
 
-body {
-	overflow-y: hidden;
+body, html {
+	overflow: hidden;
 	height: 100%;
 }
 
@@ -133,7 +133,7 @@ body {
 				height: 80px;
 				padding-top: 30px;
 				padding-bottom: 30px;
-				background: #F7F7F7;
+				background-image: url('/img/sidebar-bkgrnd.jpg');
 				margin-top: 35px;
 				border: 1px solid $site-grey;
 			}
@@ -144,7 +144,7 @@ body {
 				margin-left: 100px;
 				padding-right: 30px;
 				margin-top: -50px;
-				color: #777;
+				color: #f7f7f7;
 			}
 
 
