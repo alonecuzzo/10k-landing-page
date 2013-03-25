@@ -1,5 +1,8 @@
 $site-grey: #999999;
 $site-dark-blue: #255885;
+$site-dark-blue-copy: #012e4c;
+$site-light-green: #559628;
+$site-light-blue: #198cd3;
 
 body, html {
 	overflow: hidden;
@@ -7,7 +10,7 @@ body, html {
 }
 
 #main {
-	background: #F7F7F7;
+	background: #b3b3b3;
 	height: 100%;
 	overflow: hidden;
 	background-image: url('/img/background-stopwatch.png');
@@ -16,19 +19,20 @@ body, html {
 		position: absolute;
 		width: 420px;
 		height: 100%;
-		background-image: url('/img/sidebar-bkgrnd.jpg');
+		/*background-image: url('/img/sidebar-bkgrnd.jpg');*/
+		background-color: #086299;
 		text-align: center;
 		margin: 0;
-		-moz-box-shadow: 3px 0px 5px #CCC;
+		/*-moz-box-shadow: 3px 0px 5px #CCC;
 		-webkit-box-shadow: 3px 0px 5px #CCC;
-		box-shadow: 3px 0px 5px #CCC;
+		box-shadow: 3px 0px 5px #CCC;*/
 
 		form {
 			margin-top: 35px;
 		}
 
 		label {
-			color: $site-dark-blue;
+			color: $site-dark-blue-copy;
 			text-align: center;
 			font-size: 16px;
 		}
@@ -50,13 +54,13 @@ body, html {
 			margin-top: 20px;
 			padding-left: 5px;
 			padding-right: 5px;
-			color: $site-dark-blue;
+			color: $site-dark-blue-copy;
 			padding-top: 30px;
 			padding-bottom: 30px;
 			margin-left: 50px;
 			margin-right: 50px;
-			border-top: 1px solid #4a91b9;
-			border-bottom: 1px solid #4a91b9;
+			border-top: 1px solid $site-light-blue;
+			border-bottom: 1px solid $site-light-blue;
 		}
 
 		#coming-soon-button {
@@ -64,7 +68,7 @@ body, html {
 		}
 
 		#tagline {
-			color: $site-dark-blue;
+			color: $site-light-blue;
 			text-transform: uppercase;
 			letter-spacing: 2px;
 			font-size: 13px;
@@ -108,11 +112,11 @@ body, html {
 		margin-top: 30px;
 		margin-left: 500px;
 		width: 320px;
-		height: 626px;
+		height: 660px;
 
 		.screenshot {
 			margin-left: 14px;
-			margin-top: 111px;
+			margin-top: 100px;
 		}
 	}
 
@@ -133,7 +137,8 @@ body, html {
 				height: 80px;
 				padding-top: 30px;
 				padding-bottom: 30px;
-				background-image: url('/img/sidebar-bkgrnd.jpg');
+				/*background-image: url('/img/sidebar-bkgrnd.jpg');*/
+				background-color: $site-light-green;
 				margin-top: 35px;
 				border: 1px solid $site-grey;
 			}
@@ -146,7 +151,6 @@ body, html {
 				margin-top: -50px;
 				color: #f7f7f7;
 			}
-
 
 			.icon{
 				width: 25px;

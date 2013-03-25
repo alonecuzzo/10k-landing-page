@@ -1,77 +1,78 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\000037}}
 body, html {
   overflow: hidden;
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000312}}
 #main {
-  background: #F7F7F7;
+  background: #b3b3b3;
   height: 100%;
   overflow: hidden;
   background-image: url("/img/background-stopwatch.png");
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000318}}
 #main #sidebar {
   position: absolute;
   width: 420px;
   height: 100%;
-  background-image: url("/img/sidebar-bkgrnd.jpg");
+  /*background-image: url('/img/sidebar-bkgrnd.jpg');*/
+  background-color: #086299;
   text-align: center;
   margin: 0;
-  -moz-box-shadow: 3px 0px 5px #cccccc;
-  -webkit-box-shadow: 3px 0px 5px #cccccc;
-  box-shadow: 3px 0px 5px #cccccc;
+  /*-moz-box-shadow: 3px 0px 5px #CCC;
+  -webkit-box-shadow: 3px 0px 5px #CCC;
+  box-shadow: 3px 0px 5px #CCC;*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000330}}
 #main #sidebar form {
   margin-top: 35px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000334}}
 #main #sidebar label {
-  color: #255885;
+  color: #012e4c;
   text-align: center;
   font-size: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000340}}
 #main #sidebar #email-capture {
   text-align: center;
   margin-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000344}}
 #main #sidebar #email-capture input {
   width: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000348}}
 #main #sidebar #email-capture button {
   color: #666;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000353}}
 #main #sidebar #blurb {
   margin-top: 20px;
   padding-left: 5px;
   padding-right: 5px;
-  color: #255885;
+  color: #012e4c;
   padding-top: 30px;
   padding-bottom: 30px;
   margin-left: 50px;
   margin-right: 50px;
-  border-top: 1px solid #4a91b9;
-  border-bottom: 1px solid #4a91b9;
+  border-top: 1px solid #198cd3;
+  border-bottom: 1px solid #198cd3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000366}}
 #main #sidebar #coming-soon-button {
   margin-top: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000370}}
 #main #sidebar #tagline {
-  color: #255885;
+  color: #198cd3;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000378}}
 #main #sidebar #sidebar-logo {
   background-image: url("/img/sidebar-logo.png");
   background-repeat: no-repeat;
@@ -81,9 +82,9 @@ body, html {
   margin-left: 98px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000388}}
 #main #sidebar nav {
-  border-top: 1px solid white;
+  border-top: 1px solid #FFFFFF;
   bottom: 0;
   position: absolute;
   z-index: 2000;
@@ -91,7 +92,7 @@ body, html {
   background: #FFFFFF;
   padding: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\0000398}}
 #main #sidebar .nav-content a {
   color: #999999;
   text-transform: uppercase;
@@ -101,21 +102,21 @@ body, html {
   text-decoration: none;
   letter-spacing: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003109}}
 #main #iphone {
   background-image: url("/img/iphone.png");
   background-repeat: no-repeat;
   margin-top: 30px;
   margin-left: 500px;
   width: 320px;
-  height: 626px;
+  height: 660px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003117}}
 #main #iphone .screenshot {
   margin-left: 14px;
-  margin-top: 111px;
+  margin-top: 100px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003123}}
 #main #slides {
   position: absolute;
   float: right;
@@ -124,22 +125,23 @@ body, html {
   margin-top: -500px;
   margin-left: 900px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003131}}
 #main #slides .viewport {
   list-style-type: none;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003135}}
 #main #slides .viewport li {
   width: 306px;
   height: 80px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: url("/img/sidebar-bkgrnd.jpg");
+  /*background-image: url('/img/sidebar-bkgrnd.jpg');*/
+  background-color: #559628;
   margin-top: 35px;
   border: 1px solid #999999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003146}}
 #main #slides .viewport .text {
   float: right;
   position: relative;
@@ -148,7 +150,7 @@ body, html {
   margin-top: -50px;
   color: #f7f7f7;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003155}}
 #main #slides .viewport .icon {
   width: 25px;
   height: 25px;
@@ -156,27 +158,27 @@ body, html {
   margin-top: 25px;
   background-repeat: no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003163}}
 #main #slides .viewport #callout0 .icon {
   background-image: url("/img/list-icon.png");
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003167}}
 #main #slides .viewport #callout1 .icon {
   background-image: url("/img/stopwatch-icon.png");
   width: 35px;
   height: 35px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003173}}
 #main #slides .viewport #callout2 .icon {
   background-image: url("/img/clock-icon.png");
   width: 30px;
   height: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003179}}
 #main #slides .viewport #callout3 .icon {
   background-image: url("/img/calendar-icon.png");
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003183}}
 #main #slides .viewport #callout1, #main #slides .viewport #callout2, #main #slides .viewport #callout3 {
   opacity: .5;
 }
