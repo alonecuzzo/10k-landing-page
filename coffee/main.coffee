@@ -8,7 +8,7 @@ jQuery ->
 	slidesYpos3 = slidesYpos2 - slideDeltaY
 	slidesYpos4 = slidesYpos3 - slideDeltaY
 	slideTime = 500
-	fadeOutOpacity = .5
+	fadeOutOpacity = .2
 	$('.slides_container').responsiveSlides(
 		before: ->
 			targetY = 0

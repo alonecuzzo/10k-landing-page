@@ -183,8 +183,12 @@ body, html {
 				background-image: url('/img/calendar-icon.png');
 			}
 
-			#callout1, #callout2, #callout3 {
-				opacity: .5;
+			#callout4 .icon{
+				background-image: url('/img/calendar-icon.png');
+			}
+
+			#callout1, #callout2, #callout3, #callout4 {
+				opacity: .2;
 			}
 		}
 	}

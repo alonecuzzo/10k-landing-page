@@ -180,6 +180,10 @@ body, html {
   background-image: url("/img/calendar-icon.png");
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003186}}
-#main #slides .viewport #callout1, #main #slides .viewport #callout2, #main #slides .viewport #callout3 {
-  opacity: .5;
+#main #slides .viewport #callout4 .icon {
+  background-image: url("/img/calendar-icon.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003190}}
+#main #slides .viewport #callout1, #main #slides .viewport #callout2, #main #slides .viewport #callout3, #main #slides .viewport #callout4 {
+  opacity: .2;
 }
