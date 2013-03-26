@@ -2,13 +2,14 @@
 (function() {
 
   jQuery(function() {
-    var currentSlide, fadeOutOpacity, slideDeltaY, slideTime, slidesYpos0, slidesYpos1, slidesYpos2, slidesYpos3;
+    var currentSlide, fadeOutOpacity, slideDeltaY, slideTime, slidesYpos0, slidesYpos1, slidesYpos2, slidesYpos3, slidesYpos4;
     currentSlide = 0;
     slideDeltaY = 170;
     slidesYpos0 = -500;
     slidesYpos1 = slidesYpos0 - slideDeltaY;
     slidesYpos2 = slidesYpos1 - slideDeltaY;
     slidesYpos3 = slidesYpos2 - slideDeltaY;
+    slidesYpos4 = slidesYpos3 - slideDeltaY;
     slideTime = 500;
     fadeOutOpacity = .5;
     $('.slides_container').responsiveSlides({
@@ -16,7 +17,7 @@
         var targetY;
         targetY = 0;
         currentSlide++;
-        if (currentSlide === 4) {
+        if (currentSlide === 5) {
           currentSlide = 0;
         }
         switch (currentSlide) {
@@ -36,6 +37,9 @@
             $('#callout3').animate({
               opacity: fadeOutOpacity
             }, slideTime);
+            $('#callout4').animate({
+              opacity: fadeOutOpacity
+            }, slideTime);
             break;
           case 1:
             $('#slides').animate({
@@ -51,6 +55,9 @@
               opacity: fadeOutOpacity
             }, slideTime);
             $('#callout3').animate({
+              opacity: fadeOutOpacity
+            }, slideTime);
+            $('#callout4').animate({
               opacity: fadeOutOpacity
             }, slideTime);
             break;
@@ -70,6 +77,9 @@
             $('#callout3').animate({
               opacity: fadeOutOpacity
             }, slideTime);
+            $('#callout4').animate({
+              opacity: fadeOutOpacity
+            }, slideTime);
             break;
           case 3:
             $('#slides').animate({
@@ -85,6 +95,29 @@
               opacity: fadeOutOpacity
             }, slideTime);
             $('#callout3').animate({
+              opacity: 1
+            }, slideTime);
+            $('#callout4').animate({
+              opacity: fadeOutOpacity
+            }, slideTime);
+            break;
+          case 4:
+            $('#slides').animate({
+              marginTop: slidesYpos4
+            }, slideTime);
+            $('#callout0').animate({
+              opacity: fadeOutOpacity
+            }, slideTime);
+            $('#callout1').animate({
+              opacity: fadeOutOpacity
+            }, slideTime);
+            $('#callout2').animate({
+              opacity: fadeOutOpacity
+            }, slideTime);
+            $('#callout3').animate({
+              opacity: fadeOutOpacity
+            }, slideTime);
+            $('#callout4').animate({
               opacity: 1
             }, slideTime);
         }

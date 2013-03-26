@@ -1,8 +1,10 @@
-$site-grey: #999999;
+$site-grey: #b3b3b3;
 $site-dark-blue: #255885;
 $site-dark-blue-copy: #012e4c;
 $site-light-green: #559628;
-$site-light-blue: #198cd3;
+$site-dark-green: #264f0a;
+$site-light-blue: #36aaf2;
+
 
 body, html {
 	overflow: hidden;
@@ -10,7 +12,7 @@ body, html {
 }
 
 #main {
-	background: #b3b3b3;
+	background: $site-grey;
 	height: 100%;
 	overflow: hidden;
 	background-image: url('/img/background-stopwatch.png');
@@ -20,7 +22,7 @@ body, html {
 		width: 420px;
 		height: 100%;
 		/*background-image: url('/img/sidebar-bkgrnd.jpg');*/
-		background-color: #086299;
+		background-color: #001e32;
 		text-align: center;
 		margin: 0;
 		/*-moz-box-shadow: 3px 0px 5px #CCC;
@@ -32,7 +34,7 @@ body, html {
 		}
 
 		label {
-			color: $site-dark-blue-copy;
+			color: $site-light-blue;
 			text-align: center;
 			font-size: 16px;
 		}
@@ -43,6 +45,7 @@ body, html {
 
 			input {
 				width: 200px;
+				background-color: $site-grey;
 			}
 
 			button {
@@ -54,7 +57,7 @@ body, html {
 			margin-top: 20px;
 			padding-left: 5px;
 			padding-right: 5px;
-			color: $site-dark-blue-copy;
+			color: $site-light-blue;
 			padding-top: 30px;
 			padding-bottom: 30px;
 			margin-left: 50px;
@@ -86,17 +89,17 @@ body, html {
 		}
 
 		nav {
-			border-top: 1px solid #FFFFFF;
+			border-top: 1px solid $site-dark-green;
 			bottom: 0;
 			position: absolute;
 			z-index: 2000;
 			width: 380px;
-			background: #FFFFFF;
+			background: $site-dark-green;
 			padding: 20px;
 		}
 
 		.nav-content a{
-			color: $site-grey;
+			color: $site-light-green;
 			text-transform: uppercase;
 			font-size: 12px;
 			margin-left: 14px;
@@ -140,7 +143,7 @@ body, html {
 				/*background-image: url('/img/sidebar-bkgrnd.jpg');*/
 				background-color: $site-light-green;
 				margin-top: 35px;
-				border: 1px solid $site-grey;
+				border: 1px solid $site-dark-green;
 			}
 
 			.text {
@@ -149,31 +152,31 @@ body, html {
 				margin-left: 100px;
 				padding-right: 30px;
 				margin-top: -50px;
-				color: #f7f7f7;
+				color: $site-dark-green;
 			}
 
 			.icon{
-				width: 25px;
-				height: 25px;
+				width: 40px;
+				height: 40px;
 				margin-left: 35px;
 				margin-top: 25px;			
 				background-repeat: no-repeat;
 			}
 
 			#callout0 .icon{
-				background-image: url('/img/list-icon.png');
+				background-image: url('/img/plus-icon.png');
 			}
 
 			#callout1 .icon{
-				background-image: url('/img/stopwatch-icon.png');
-				width: 35px;
-				height: 35px;
+				background-image: url('/img/target-icon.png');
+				/*width: 35px;
+				height: 35px;*/
 			}
 
 			#callout2 .icon{
 				background-image: url('/img/clock-icon.png');
-				width: 30px;
-				height: 30px;
+				/*width: 30px;
+				height: 30px;*/
 			}
 
 			#callout3 .icon{
