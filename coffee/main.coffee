@@ -2,7 +2,7 @@
 jQuery ->
 	currentSlide = 0
 	slideDeltaY = 170
-	slidesYpos0 = -500
+	slidesYpos0 = -600
 	slidesYpos1 = slidesYpos0 - slideDeltaY
 	slidesYpos2 = slidesYpos1 - slideDeltaY
 	slidesYpos3 = slidesYpos2 - slideDeltaY
