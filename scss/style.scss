@@ -144,6 +144,14 @@ body, html {
 				}
 			}
 
+			.sam-story-description {
+				padding-left: 10px;
+			}
+
+			.sam-story-photo {
+				padding-left: 600px;
+			}
+
 			.user-story-title-right {
 				color: $site-light-blue;
 				font-weight: bold;
@@ -160,6 +168,10 @@ body, html {
 		background: #F7F7F7;
 		padding-top: 150px;
 		padding-bottom: 150px;
+
+		.user-story-header {
+			padding-bottom: 150px;
+		}
 	}
 
 	#karla-section {
@@ -188,7 +200,6 @@ body, html {
 		margin-top: -180px;
 	}
 
-
 	.user-story-section-story-right {
 		margin-left: 700px;
 		margin-top: -290px;
@@ -200,5 +211,11 @@ body, html {
 
 	.user-story-section-photo-left {
 		padding-left: 100px;
+	}
+
+	#footer{
+		background: #121212;
+		height: 100px;
+		width: 100%;
 	}
 }
