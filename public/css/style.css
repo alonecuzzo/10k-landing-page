@@ -117,10 +117,10 @@ body, html {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003129}}
 #main #user-stories-section {
-  height: 1000px;
   background: #FFF;
   padding-left: 100px;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003137}}
 #main #user-stories-section .user-story-header .user-story-description-section {
@@ -139,7 +139,32 @@ body, html {
   font-weight: bold;
   font-size: 32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003154}}
-#main #user-stories-section .user-story-header .user-story-header-photo-left {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003156}}
+#main .user-story-section {
+  margin-bottom: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003161}}
+#main .user-story-header-photo-left {
   margin-top: -330px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003165}}
+#main .user-story-section-story-left {
+  font-size: 18px;
+  padding-top: 100px;
+  line-height: 50px;
+  width: 500px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003172}}
+#main .user-story-section-photo-right {
+  margin-left: 600px;
+  margin-top: -180px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003178}}
+#main .user-story-section-story-right {
+  margin-left: 600px;
+  margin-top: -290px;
+  font-size: 18px;
+  padding-top: 100px;
+  line-height: 50px;
+  width: 500px;
 }

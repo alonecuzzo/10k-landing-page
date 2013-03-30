@@ -127,10 +127,10 @@ body, html {
 	}
 
 	#user-stories-section {
-		height: 1000px;
 		background: #FFF;
 		padding-left: 100px;
 		padding-top: 100px;
+		padding-bottom: 100px;
 		
 		.user-story-header {
 			
@@ -150,10 +150,41 @@ body, html {
 				font-weight: bold;
 				font-size: 32px;
 			}
-
-			.user-story-header-photo-left {
-				margin-top: -330px;
-			}
 		}	
+	}
+
+	.user-story-section {
+		margin-bottom: 100px;
+	}
+
+
+	.user-story-header-photo-left {
+		margin-top: -330px;
+	}
+
+	.user-story-section-story-left {
+		font-size: 18px;
+		padding-top: 100px;
+		line-height: 50px;
+		width: 500px;
+	}
+
+	.user-story-section-photo-right {
+		margin-left: 600px;
+		margin-top: -180px;
+	}
+
+
+	.user-story-section-story-right {
+		margin-left: 600px;
+		margin-top: -290px;
+		font-size: 18px;
+		padding-top: 100px;
+		line-height: 50px;
+		width: 500px;
+	}
+
+	.user-section-story-photo-left {
+
 	}
 }
