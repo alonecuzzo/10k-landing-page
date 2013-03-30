@@ -9,6 +9,7 @@ $site-mid-blue: #0d6199;
 
 body, html {
 	/*overflow: hidden;*/
+	overflow-x: hidden;
 	height: 100%;
 	background: $site-light-blue;
 }
@@ -85,10 +86,42 @@ body, html {
 		}
 	}
 
-	#benefits-section {
+	#benefits-section-holder {
 		margin-top: 20px;
 		background: #F7F7F7;
-		height: 500px;
+		height: 1500px;
 		width: 100%;
+		padding-left: 100px;
+
+		.benefits-section {
+			padding-top: 120px;
+			/*padding-bottom: 100px;*/
+		}
+
+		.benefit-description {
+			padding-top: 20px;
+			width: 500px;
+			font-size: 16px;
+		}
+
+		.benefit-header {
+			font-weight: bold;
+			font-size: 24px;
+			color: $site-light-blue;
+		}
+
+		.benefit-blurb-right {
+			margin-left: 600px;
+			margin-top: -150px;
+		}
+
+		.benefit-photo-right {
+			margin-left: 610px;
+			margin-top: -150px;
+		}
+
+		#benefits-section-3 {
+			padding-top: 240px;
+		}
 	}
 }
