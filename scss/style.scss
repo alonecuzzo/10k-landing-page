@@ -92,6 +92,7 @@ body, html {
 		padding-bottom: 100px;
 		width: 100%;
 		padding-left: 100px;
+		line-height: 30px;
 
 		.benefits-section {
 			padding-top: 120px;
@@ -123,5 +124,36 @@ body, html {
 		#benefits-section-3 {
 			padding-top: 240px;
 		}
+	}
+
+	#user-stories-section {
+		height: 1000px;
+		background: #FFF;
+		padding-left: 100px;
+		padding-top: 100px;
+		
+		.user-story-header {
+			
+			.user-story-description-section {
+				padding-left: 600px;
+
+				.user-story-description {
+					width: 500px;
+					font-size: 18px;
+					padding-top: 30px;
+					line-height: 50px;
+				}
+			}
+
+			.user-story-title-right {
+				color: $site-light-blue;
+				font-weight: bold;
+				font-size: 32px;
+			}
+
+			.user-story-header-photo-left {
+				margin-top: -330px;
+			}
+		}	
 	}
 }
