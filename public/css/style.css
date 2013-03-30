@@ -117,54 +117,76 @@ body, html {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003129}}
 #main #user-stories-section {
-  background: #FFF;
-  padding-left: 100px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  /*padding-top: 100px;
+  padding-bottom: 100px;*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003133}}
+#main #user-stories-section .user-story-header {
+  padding-left: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003136}}
 #main #user-stories-section .user-story-header .user-story-description-section {
   padding-left: 600px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003139}}
 #main #user-stories-section .user-story-header .user-story-description-section .user-story-description {
   width: 500px;
   font-size: 18px;
   padding-top: 30px;
   line-height: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003147}}
 #main #user-stories-section .user-story-header .user-story-title-right {
   color: #36aaf2;
   font-weight: bold;
   font-size: 32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003154}}
+#main #user-stories-section .user-story-section-story-left {
+  padding-left: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003159}}
+#main #sam-section {
+  background: #F7F7F7;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003165}}
+#main #karla-section {
+  background: #FFF;
+  padding-top: 150px;
+  padding-bottom: 70px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003171}}
 #main .user-story-section {
   margin-bottom: 100px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003175}}
 #main .user-story-header-photo-left {
   margin-top: -330px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003179}}
 #main .user-story-section-story-left {
   font-size: 18px;
   padding-top: 100px;
   line-height: 50px;
   width: 500px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003172}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003186}}
 #main .user-story-section-photo-right {
-  margin-left: 600px;
+  margin-left: 700px;
   margin-top: -180px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003192}}
 #main .user-story-section-story-right {
-  margin-left: 600px;
+  margin-left: 700px;
   margin-top: -290px;
   font-size: 18px;
   padding-top: 100px;
   line-height: 50px;
   width: 500px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alonecuzzo\/projects\/10k-landing-page\/scss\/style\.scss}line{font-family:\00003201}}
+#main .user-story-section-photo-left {
+  padding-left: 100px;
 }
